@@ -1,0 +1,281 @@
+/*Fondos de Elementos del menu*/
+.Postres{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.694)), url(../Img/Waffle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.Frias{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.694)), url(../Img/Frappes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.Calientes{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(11, 28, 1, 0.694)), url(../Img/Matcha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 88%;
+    color: rgb(255, 255, 255);
+}
+
+.Emparedados{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.694)), url(../Img/Hamburguesa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.AlitasSnaks{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.694)), url(../Img/DedosQueso.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.Ensaladas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.694)), url(../Img/Ensalada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+/*Mapa y sección "Sobere Nosotros"*/
+.Mapa{
+    position: relative;
+    border-radius: 10px;
+    border-color: rgb(245, 226, 209);
+    width: 600px;    
+    height: 400px;
+
+
+    @media(max-width: 60rem){ /* 950px */
+        top: 5vh;
+        width: 80vw;
+        height: 40vh;
+    }
+}
+
+.Nosotros{
+    margin: 2rem;
+    @media(max-width: 60rem){ /* 950px */
+        top: 10vh;
+    }
+}
+
+.Mapa-RedSocial{
+    max-height: 500px;
+    display: flex;
+    font-size: 26px;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    top: -20px;
+
+    @media(max-width: 60rem){ /* 950px */
+        font-size: 20px;
+        top: 55px;
+    }
+}
+
+.BotonRedSocial{
+    width: 50px;
+    height: 50px;
+}
+
+.ContBotonRedSocial{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+
+    @media(max-width: 60rem){ /* 950px */
+        top: 5vh;
+    }
+}
+
+.FondoNosotros{
+    position: relative;
+    height: 120vh;
+    top: 5vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.612), rgba(220, 193, 129, 0.694));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    align-items: center;
+
+    @media(max-width: 60rem){ /* 950px */
+        top: 8vw;
+    }
+}
+
+/*Icono de Boton de comida*/
+.AlimetoIcon{
+    width: 95%;
+    height: 100%;
+}
+
+.ContBotonComidas{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Titulos{
+    position: relative;
+    top: 5.5vh;
+}
+
+/*Home Promocionales*/
+.Promocional{
+    position: relative;
+    width: 38vw;
+    max-width: 620px;
+    height: auto;
+    max-height: 440px;
+    top: 0;
+
+    @media(max-width: 60rem){ /* 950px */
+        height: auto;
+        width: 80%;
+    }
+
+    @media(max-width: 40rem){ 
+        height: 40%;
+        width: 80%;
+    }
+
+    @media(max-height: 30rem){ 
+        height: 40vh;
+        width: 70vh;
+    }
+}
+
+.FondoPromo_1{
+    background-image: linear-gradient(rgba(131, 62, 19, 0.612), rgba(41, 21, 6, 0.694)), url(../Img/FondoPromoCafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(214, 94, 19, 0.612), rgba(69, 38, 14, 0.694)), url(../Img/FondoCafe.jpg);
+    }
+}
+
+.FondoPromo_2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(67, 171, 26, 0.694)), url(../Img/FondoMatchaPromo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(20, 143, 4, 0.797), rgba(13, 45, 10, 0.694)), url(../Img/FondoVerde.jpg);
+    }
+}
+
+.FondoPromo_3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(98, 78, 17, 0.694)), url(../Img/FondoCroissantPromo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(225, 176, 78, 0.612), rgba(6, 88, 37, 0.694)), url(../Img/FondoMorado.jpg);
+    }
+}
+/*Fondos Menú*/
+#FondoBebida{
+    background-image: linear-gradient(rgba(163, 240, 234, 0.612), rgba(42, 25, 8, 0.833)), url(../Img/FondoBebida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(167, 97, 11, 0.809), rgba(28, 13, 2, 0.826)), url(../Img/FondoBebidaPhone.jpg);
+    }
+}
+
+#FondoComida{
+    background-image: linear-gradient(rgba(186, 96, 11, 0.876), rgba(33, 15, 2, 0.86)), url(../Img/Croissantfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 90%;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(172, 127, 78, 0.809), rgba(28, 19, 2, 0.826)), url(../Img/FondoComidaPhone.jpg);
+    }
+}
+
+#FondoPostre{
+    background-image: linear-gradient(rgba(228, 120, 101, 0.868), rgba(107, 26, 6, 0.86)), url(../Img/FondoPostres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 95%;
+    color: rgb(255, 255, 255);
+
+    @media(max-width: 60rem){ /* 950px */
+        background-image: linear-gradient(rgba(172, 78, 78, 0.809), rgba(28, 2, 18, 0.826)), url(../Img/FondoFresa.jpg);
+    }
+}
+
+/*Pie de Pagina*/
+.Pie{
+    position: fixed;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(60, 59, 59);
+    width: 100vw;
+    bottom: 0;
+    @media(max-width: 65rem){/* 960px */
+        font-size: 12px;
+        height: 3vh;
+    }
+
+}
